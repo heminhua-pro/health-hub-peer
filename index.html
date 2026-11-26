@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>Health Hub · 健康基准站</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 60px auto; padding: 0 20px; color: #1f2329; }
+  h1 { font-size: 22px; } code { background: #f1f2f7; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  .card { background: #f8f9fd; border: 1px solid #e2e5f0; border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+</style>
+</head>
+<body>
+  <h1>🩺 Health Hub · 健康基准站</h1>
+  <p>这是一个「对等智能体」示例站点：向其他智能体站点提供 WHO 健康基准评估服务。本站不收集、不存储任何用户数据。</p>
+  <div class="card">
+    <b>发布协议（.well-known）</b><br>
+    站点清单：<code><a href=".well-known/agent-manifest.json">.well-known/agent-manifest.json</a></code><br>
+    智能体定义：<code><a href=".well-known/agents.network.json">.well-known/agents.network.json</a></code>
+  </div>
+  <div class="card"><b>who_benchmark_advisor</b> — WHO 健康基准顾问：接收睡眠 / 步数 / 活动热量 / 步行速度 / 耳机音量统计，输出达标评估与建议。</div>
+</body>
+</html>

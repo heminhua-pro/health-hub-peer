@@ -1,0 +1,6 @@
+{
+  "name": "health_hub",
+  "front_man": "who_benchmark_advisor",
+  "hocon": "agents.network.json",
+  "peer-link": {}
+}
